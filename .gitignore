@@ -1,0 +1,33 @@
+# Виртуальные окружения
+venv/
+.venv/
+env/
+
+# Файлы IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Артефакты тестов
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Линтер
+.flake8
+
+# Локальные настройки
+.env
+*.local
+
+# Базы данных (SQLite)
+*.sqlite3
+db.sqlite3
+
+# Docker
+docker-compose.override.yml
+
+# Макросы/логи
+logs/
+*.log
